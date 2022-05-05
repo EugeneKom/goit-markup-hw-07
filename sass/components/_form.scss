@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.form-title {
+.form__title {
     margin-bottom: 12px;
 
     font-weight: 700;
@@ -44,7 +44,7 @@
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-
+    color: $text-color;
     transition: border 250ms $animation-cubic;
         &:focus-within {
             border: 1px solid #2196f3;
